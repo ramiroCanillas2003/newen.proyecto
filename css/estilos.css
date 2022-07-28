@@ -1,951 +1,1612 @@
-html{
-    background-color: lightpink;    
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 25px;
+.carousel-item{
+    background-color: #000;
 }
 
-/*ESTILOS INDEX*/ 
-
-.bodyIndex{
-    background-color: rgb(255, 255, 255);
-}
-
-#carouselExampleCaptions{
-    padding: auto;
-    left: 600px;
-}
-
-.imgIndex{
-    height: 400px;
-    width: 410px;
-    border-radius: 0px;
-    position: relative;
-    left: 700px;
-}
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightslategray;
-}
-
-li{
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-#tituloPrincipalIndex{
-    background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgb(240, 240, 240) 0%, rgb(241, 241, 241) 47%, rgba(148,187,233,1) 100%);
-    padding: 552;
-    border-radius: 0px;
-    background-color: lightsalmon;
-    width: 1852px;
-    height: 150px;
-    text-align: center;
-    font-size: 100px;
-}
-
-.tituloPrincipalIndex{
-    background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgb(240, 240, 240) 0%, rgb(241, 241, 241) 47%, rgba(148,187,233,1) 100%);
-    border-radius: 0px;
-    background-color: lightsalmon;
-    width: 1852px;
-    height: 100px;
-    text-align: center;
-    font-size: 60px; 
-    
-}
-
-.tituloInfo{
-    background-color: azure;
-    left: 950px;
-    border-radius: 50px;
-    margin-left: 500px;
-}
-
-#carouselExampleFade{
-    left: 349px;
-}
-
-.medicIn{
-    margin-right: 1100px;
-    max-width: 150px;
-    border-radius: 100px;
-    position: relative;
-}
-
-.divMayor{
-    display: grid;
-    grid-template-columns: 300px 300px;
-    grid-gap: 10px;
-    justify-content: center;
-    justify-items:center;
-    align-items: center;
-}
-
-.divI{
-    background-color: rgb(105, 105, 105);
-    color: aliceblue;
-    border-radius: 50px;
-    font-size: x-large;
-    text-align: center;
-}
-
-.imgNewen{
-    width: 300px;
-    height: 300px;
-    border-radius: 300px;
-}
-
-.footerIn{
-    background-color: lightyellow;
-    border-radius: 50px;
-    text-align: center;
-}
-
-
-/* ESTILOS INFORMACION */
-
-    .bodyInformacion {
-    margin: 40px;
-    }
-    
-    .wrapper {
-        display: grid;
-        grid-gap: 30px;
-        grid-template-columns: repeat(auto-fill, 250px );
-        background-color: #fff;
-        color: lightblue;
-    }
-
-    .box {
-        background-color: lightblue;
-        color: #fff;
-        border-radius: 5px;
-        padding: 20px;
-        font-size: 150%;
-    }
-
-    .a{
-        grid-column: 1 / 3;
-        height: 200px;
-        width: 500px;
-    }
-
-    .b{
-        grid-column: 3 / 5 ;
-        width: 500px;
-        height: 200px;
-    }
-
-    .c{
-        grid-column: 1 / 2 ;
-        grid-row: 2 ;
-        height: 200px;
-        width: 500px;
-    }
-
-    .d{
-        grid-column: 2 / 5 ;
-        grid-row: 2 ;
-        height: 200px;
-        width: 100px;
-    }
-
-    .e{
-        grid-column: 1 / 5;
-        grid-row: 3;
-        height: 200px;
-        width: 500px;
-    }
-
-
-
-/* ESTILOS ¿QUIENES SOMOS?*/ 
-
-.footerQ{
-    background-color: lightyellow;
-    border-radius: 50px;
-    text-align: center;
-}
-
-.main{
-    display: flex;
-    flex-direction: column;
-}
-
-.tituloSecundario{
-    background-color: lightslategrey;
-    border-radius: 50px;
-    width: 200px;
-    padding: 20px;
-}
-
-.listado{
-    display: grid;;
-}
-.imga{
-    max-width: 350px;
+.div-redes{
+    background-color: #c06c84;
     display: flex;
     flex-direction: row;
-    position: relative;
-    left: 225px;
-}
-
-/*ESTILOS UBICACION*/
-.iframegit{
-    width: 600px;
-    height: 600px;
-    left: 620px;
-    position: relative;
-}
-
-.menuUbi{
-    max-width: 300;
-}
-
-.sectionUbi:hover{
-    background-color: lightslategrey;
-    height: 500px;
-    width: 500px;
-    transition: 2s;
-    margin-right: 100px;
-    padding: 75px;
-}
-
-.tituloSecundarioU{
-    background-color: lightslategrey;
-    border-radius: 50px;
-    width: 350px;
-    padding: 20px;
-}
-
-.prestacionesU{
-    text-align: center;
-}
-
-.medicU{
-    margin-right: 1100px;
-    max-width: 150px;
-    border-radius: 100px;
-    position: relative;
-}
-
-.footerU{
-    background-color: lightyellow;
-    border-radius: 50px;
-    text-align: center;
-}
-
-.img-fluid{
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    position: relative;
-    left: 520px;
-}
-
-
-
-/*ESTILOS NOSOTROS*/
-
-.bodyHistoria{
-    display: flex;
-    flex-direction: column;
-    padding: 70px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 250px;
     background-color: lightcyan;
 }
 
-.tituloHistoria{
-    background-color: lightslategray;
+.logoapp{
+    width: 110px;
+    height: 70px;
+    border-radius: 150px;
 }
 
-.intro{
-    text-align: center;
-    background-color: transparent;
-}
-
-.intro:hover{
-    transition: 2s;
-    background-color: rgb(83, 83, 83);
-}
-
-.listaPrestaciones{
-    text-align: center;
-    border-radius: 10px;
-    background-color: transparent;
-}
-
-.listaPrestaciones:hover{
-    transition: 2s;
-    background-color: rgb(83, 83, 83);
-}
-
-.ingreso{
-    background-color: transparent;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.ingreso:hover{
-    transition: 2s;
-    background-color: rgb(83, 83, 83);
-}
-
-.egreso{
-    background-color: transparent;
-    text-align: center;
-    border-radius: 20px;
-    grid-area: definicionb;  
-}
-
-.egreso:hover{
-    transition: 2s;
-    background-color: rgb(83, 83, 83);
-}
-
-.objetivosGenerales{
-    background-color: transparent;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.objetivosGenerales:hover{
-    transition: 2s;
-    background-color: rgb(83, 83, 83);
-}
-
-.objetivosEspecificos{
-    background-color: transparent;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.objetivosEspecificos:hover{
-    transition: 2s;
-    background-color: rgb(83, 83, 83);
-}
-
-.medicN{
-    margin-right: 1100px;
-    max-width: 150px;
-    border-radius: 100px;
+.hrefapp{
     position: relative;
+    color: #000;
+    background-color: white;
+    height: 20px;
+    border-radius: 25px;
+    padding: 2px;
 }
 
-.footerN{
-    background-color: lightyellow;
-    border-radius: 50px;
+.hrefapp:hover{
+    background-color: #000;
+    color: violet;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.main .contenedor{
+    background-color: lightblue;
+    overflow: visible;
     text-align: center;
+    padding: 25px;
+}
+.main .contenedor .foto{
+	margin-top: 80px;
+}
+
+.main .contenedor .foto img{
+    width: 300px;
+    height:300px;
+	vertical-align: top;
+	border-radius: 50% ;
+	border: 5px solid rgba(255,255,255,.2);
+}
+
+.main .contenedor .texto{
+	color: #5a5a5a;
+	font-weight: 600;
+	font-size: 1em;
+	line-height: 30px;
+	width: 80%;
+	margin: 30px auto 60px auto;
+}
+.main .contenedor .texto p{
+    margin-bottom: 30px;
+}
+.main .contenedor .texto a{
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    color: #fff;
+    background-color: #c06c84;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.shared-panel{
+    display: flex;
+    flex-direction: row;
+	overflow: auto;
+    
+}
+.shared-panel span{
+	margin: 10px 0;
+	font-size: 16px;
+	font-weight: 600;
+}
+.shared {
+	width: 30px; 
+	height: 30px;
+	margin: 5px 0; 
+	padding: 0; 
+	float: left;
+	margin-right: 5px; 
+	cursor: pointer;
+	border-radius: 50%;
+}
+.shared:hover{
+	opacity: 0.7;
+}
+
+.shared.fb {
+    padding: 50px;
+    background-position: 0px -120px; 
+    background-color: #6081C4;
+    width: 200px;
+    height: 100px;
+}
+.shared.gp {
+    padding: 50px;
+    background-position: 0px 0px; 
+    background-color: hsla(305, 79%, 54%, 0.589);
+    width: 200px;
+    height: 100px;
+}
+.shared.wa {
+    padding: 50px;
+    background-position: 0px -90px; 
+    background-color: #0dc143;
+    width: 200px;
+    height: 100px;
 }
 
 
+.st2{
+    border-radius: 0;
+}
+.st3{
+    border-radius: 5px;
+}
 
-/* ESTILOS FORMULARIO */
+    html{
+        background-color: rgb(255, 255, 255);
+    }
 
-    .form{ 
-        background-color: lightblue;
+
+    /*ESTILOS INDEX*/ 
+    
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+    }
+
+    .idStorage{
         display: flex;
         flex-direction: column;
-        text-align: center;
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
-    .form input {
-        width: 90%;
-        height: 30px;
-        margin: 0.5rem;
+    .ejemplo {
+        margin: auto;
+        width: 40%;
     }
 
-    .form button {
-        padding: 0.5em 1em;
-        border: none;
-        background: rgb(100, 200, 255);
+    .ejemplo input {
+        margin: 5px 0 10px 0;
+        display: block;
+    }
+
+    *{
+        margin: 0px;
+        padding: 0 px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    p.big{
+        font-size: 1.1em;
+        line-height: 1.5em;
+        background-color: grey;
+        margin: 5px;
+        border-radius: 20px;
+    }
+
+    .fa-star, .fa-thumbs-up, .fa-check{
+        font-size: 2.7em;
+        display: block;
+        color: black;
+        margin-bottom: 30px;
+    }
+
+    .info-box{
+        background-color: #999;
+        margin: 0px auto;
+        padding: 110px 0 110px 0;
+        color: white;
+        text-align: center;
+        
+    }
+
+    .info-box h2{
+        border-radius: 50px;
+        position: relative;
+        left: 240px;
+        width: 800px;
+        background-color: violet;
+        margin-bottom: 30px;
+        color: #000000;
+    }
+
+    #flex-p{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #flex-p p{
+        padding: 30px;
+        max-width: 300px;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 2.5em;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h1{font-size: 3.5em;}
+    
+    h2{
+        padding: 10px;
+        font-size: 3em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+    }
+    h3{font-size: 2em;}
+    p{font-size: 1.25em;}
+    ul{list-style: none;}
+
+    .buttonEmpresa{
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
         cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid violet;
+        background: violet;
+        left: 860px;
+    }
+
+    .buttonEmpresa:hover{
+        background: #fff;
+        color: violet
+    }
+
+    .buttonEmpresaContacto{
+        width: 25px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid violet;
+        background: violet;
+        left: 1160px;
+    }
+
+    .buttonEmpresaContacto:hover{
+        background: #fff;
+        color: violet
+    }
+
+
+    .buttonEmpresaInput{
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid violet;
+        background: violet;
+        left: 0px;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    .buttonEmpresaInput:hover{
+        background: #fff;
+        color: violet
+    }
+
+    button {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid violet;
+        background: violet;
+    }
+
+    button:hover {
+        background: #fff;
+        color: violet
+    }
+
+    .container{
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    header{
+        background-color: black;
+        color: white;
+    }
+
+    header .logo{
+        margin: 0;
+        padding: 25px 30px;
+        font-weight: bold;
+        color: white;
+        font-size: 2.2em;
+        text-align: center;
+        font-family: cursive;
+        border-radius: 500px;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    header a{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+
+    header a:hover{
+        color: violet;
+    }
+
+    .iframeUbicacion{
+        padding: 25px;
+    }
+
+    #hero{
+        background: rgba( 1, 0, 0, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        }
+
+    #hero h1{
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        width: 1000px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
     }
     
-    .footerT{
-        background-color: lightyellow;
-        border-radius: 50px;
+    #somos-proya{
+        margin-top: 0px;
+        background-color: black;
+        height: 650px;
+        text-align: center;
+        padding: 200px 12px;
+        background-image: url(https://lh6.googleusercontent.com/proxy/d4aCRIyyR2dFnKzBVDeHhQ1sud9tqCFpxLW7fuGYzIWMWMGjJYhGmqeCadRv2Ggh-wlYabQiIwqfqUiq2wSbsNmOtz2zvdJ_sbI5VHST99r_S7ilnuB2vLU=s0-d);
+        background-repeat: no-repeat;
+        background-position: center ;
+    }
+
+    #somos-proya .donde{
+        position: relative;
+        left: 300px;
+        text-align: left;
+        background-color: none;
+        width: 300px;
+        color: white;
+    }
+
+    .dondeParrafo{
+        width: 250px;
+        color: white;
+        text-align: left;
+    }
+
+    /*.dondeParrafo:hover{
+        background-color: #3B91FE;
+        
+    }
+
+    .donde:hover{
+        background-color: violet;
+        text-transform: uppercase;
+    }*/
+
+    #nuestross-programas{
+        background-color: black;
         text-align: center;
     }
 
+    #nuestros-programas .container{
+        padding: 100px 0px;    
+    }
+
+    #nuestros-programas p{
+        display: none
+    }
+
+    #nuestros-programas h2{
+        margin-top: 0;
+    }
+
+    #nuestros-programas .carta{
+        background-position: center center;
+        background-size: cover;
+        padding: 50px 0px;
+        margin: 30px;
+        border-radius: 15px;
+    }
+
+    #nuestros-programas{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(48, 48, 48);
+        color: white;
+    }
+
+    #nuestros-programasPrecios{
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        padding: 15px;
+    }
+
+    #divPrincipal{
+        display: inline-flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    .precios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: transparent;
+    }
+
+    .titulo-precios{
+        background-color: violet;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+        width: 260px;
+        position: relative;
+        left: 805px;
+    }
+
+    .parrafoPrecios{
+        position: relative;
+        left: 200px;
+    }
+
+    .enlacePresupuesto{
+        color: rgb(125, 179, 225);
+        text-decoration: solid;
+    }
+
+    .parrafoAparte{
+        color: violet;
+        text-decoration: dashed;
+    }
+
+    #nuestros-programasContacto{
+        background-color: rgb(255, 255, 255);
+        color: white;
+        margin: auto;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+    }
+
+    .titulo-contacto{
+        margin-top: 8px;
+        padding: 5px;
+        background-color: violet;
+        height: 60px;
+        color: white;
+        border-radius: 50px;
+    }
 
 
-    /*ESTILOS CONTACTO*/
+    /*ULTIMO DIV*/
+    .fond{
+        align-items: center;
+        position:relative;
+        padding-top:85px;
+        top:0;
+        left:0; 
+        right:0;bottom:0;
+        background-color: black;
+        border-radius: 86px;
+    }
+    
+    .carreaux_presentation_light{
+        display:table-cell;
+        width:250px; height:250px;
+        background-size:cover;
+        overflow: hidden;
+        position: relative;
+    }
 
-.medios{
-    background-color: transparent;
-    color: black;
-    display: flex ;
-    flex-direction: column;
-    width: 150px;
-}
+    .carreaux_presentation_light .shadow_swhow_mini{
+        background-color:rgba(19,30,33,0.4);
+        position: absolute;
+        z-index: 1000;
+        top:0;left:0;right:0;bottom:0;
+    }
 
-.medios:hover{
-    background-color: lightslategrey;
-    height: 500px;
-    width: 500px;
-    transition: 2s;
-    margin-right: 100px;
-    padding: 75px;
-}
+    .carreaux_presentation_light:hover .shadow_swhow_mini{
+        background-color: violet; 
+        left:0px;
+    }
 
-.medioTit{
-    padding: 20px;
-    color: black;
-    background-color: lightgray;
-    border-radius: 50px;
-    width: 250px;
-}
+    .carreaux_presentation_light .deroul_titre{
+        position: relative;
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        padding: 7px;
+        z-index: 1000;
+        top:60%;left:-80%;
+        color:#ffffff;
+        font-weight: 300;
+        font-size: 13px; width: 80%;
+        -webkit-transition: all 0.7s;
+        -moz-transition: all 0.7s;
+        -ms-transition: all 0.7s;
+        transition: all 0.7s;
+    }
+    
+    .carreaux_presentation_light:hover .deroul_titre{
+        background-color: grey; left:0px;
+    }
 
-.classContacto{
-    background-color: transparent;
-    width: 210px;
-}
+    .carreaux_presentation_light .deroul_soustitre{
+        position: relative;
+        font-family: 'Roboto';
+        padding: 5px;
+        z-index: 1000;
+        top:60%;right:-85%;
+        margin-top: 25px;
+        color:#ffffff;
+        font-weight: 300;
+        font-size: 11px; width: 80%;
+        -webkit-transition: all 0.7s;
+        -moz-transition: all 0.7s;
+        -ms-transition: all 0.7s;
+        transition: all 0.7s;
+    }
 
-.medicC{
-    margin-right: 1100px;
-    max-width: 150px;
-    border-radius: 100px;
-    position: relative;
-}
+    .carreaux_presentation_light:hover .deroul_soustitre{
+        background-color:#417c74;right:0px;
+    }
 
-.footerC{
-    background-color: lightyellow;
-    border-radius: 50px;
-    text-align: center;
-}
+    .imgLinkedin{
+        margin-top: 5px;
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+    }
+
+    .imgGmail{
+        margin-top: 5px;
+        width: 90px;
+        height: 70px;
+        border-radius: 20px;
+    }
+
+    
+    /*ICONO WHATSAPP*/
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+    }
+    .float:hover {
+        text-decoration: none;
+        color: #25d366;
+        background-color:#fff;
+    }
+    
+    .my-float{
+        margin-top:16px;
+    }
+
+    /*FOOTER*/
+
+    
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+    }
+
+    footer p{
+        margin: 20px;
+        background-color: rgb(255, 255, 255);
+        font-size: 1.5em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(0, 0, 0);
+        height: 40px;
+        align-items: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    footer li{
+        margin: 20px;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /*ESTILOS ACERCA DE..*/
+
+    #heroAcerca{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 50vh;
+        background-image: url(https://i.pinimg.com/originals/fd/94/0b/fd940b5e8648e50426a54921607ffbd0.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
 
 
-/* ESTILOS REDES */
+    #heroAcerca h1{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 1000px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
+    }
 
-.cardIm{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    text-align: center;
-}
+    #somos-proya-acerca{
+        margin-top: 0px;
+        background-color: black;
+        height: 650px;
+        text-align: center;
+        padding: 200px 12px;
+        background-image: url(https://parentesis.com/imagesPosts/coder00.jpg);
+        background-repeat: no-repeat;
+        background-position: center ;
+    }
 
+    #somos-proya-acerca .donde-acerca{
+        text-align: left;
+        background-color: none;
+        width: 300px;
+        color: white;
+    }
 
-.card-body{
-    width: 750px;
-}
+    .dondeParrafo-acerca{
+        width: 250px;
+        color: white;
+        text-align: left;
+    }
 
-.card{
-    display: flex ;
-    flex-direction: row;
-}
-
-
-.footerI{
-    background-color: lightyellow;
-    border-radius: 50px;
-    text-align: center;
-}
-
-/*HREF DE TODOS LOS INDEX*/
-
-.href{
-    background-color: lightseagreen;
-    border-radius: 50px;
-    text-decoration: none;
-    color: black;
-}
-
-
-
-
-
-
-    /* MEDIA QUERIES */
-
-    @media screen and (max-width: 480px) {
-
-        /* INDEX */
+    .dondeParrafo-acerca:hover{
+        background-color: #3B91FE;
         
-            html{
-                background-color:azure;
-                background-image: none
-            }
-        
-            .nav{
-                max-width: 360px;
-            }
+    }
 
-            .imgIndex{
-                height: 300px;
-                width: 300px;
-                border-radius: 900px;
-                position: relative;
-                left: 38px;
-            }
+    .donde-acerca:hover{
+        background-color: violet;
+        text-transform: uppercase;
+    }
 
-            .tituloPrincipalIndex{
-                background: rgb(238,174,202);
-                background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(224,176,207,1) 47%, rgba(148,187,233,1) 100%);
-                padding: 552;
-                border-radius: 0px;
-                background-color: lightsalmon;
-                width: 343px;
-                height: 100px;
-                text-align: center;
-                font-size: 40px;
-                border-radius: 500px;
-                position: relative;
-                left: 0px;
-            }
+    .imgCerti{
+        margin-bottom: 70px;
+        background-color: black;
+    }
 
-            #tituloPrincipalIndex{
-                text-align: center;
-                width: 378px;
-                font-size: 40px;
-                height: 55px;
-            }
-            
-            .carousel-inner{
-                left: 0px;
-            }
+    .imgCertificado{
+        width: 650px;
+        height: 600px;
+        position: relative;
+        left: 304px;
+    }
 
-            .divI{
-                position: absolute;
-                width: 250px;
-                color: aliceblue;
-                border-radius: 50px;
-                font-size: x-large;
-                text-align: center;
-                max-width: 350px;
-                top: 90px;
-                left: 31px;
-            }
-        
-            .imgNewen{
-                max-width: 0px;
-                min-width: 0px;
-            }
-        
-            .medicIn{
-                position: absolute;
-                height: 40px;
-                width: 40px;
-                left: 320px;
-                top: 650px;
-                border-radius: 50px;
-            }
-        
-            .footerIn{
-                position: absolute;
-                background-color: lightgoldenrodyellow;
-                text-align: center;
-                top: 750px;
-                left: 55px;
-            }
-        
-        
-        
-        /* ¿QUIENES SOMOS? */
-        
-            #tituloPrincipal{
-                width: 378px;
-                text-align: center;
-            }
+    #somos-proya-acercauno{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-image: url(https://www.solbyte.com/blog/wp-content/uploads/desarrollo-web-a-medida.png);
+        background-repeat: no-repeat;
+        background-position: center ;
+        color: black;
+        padding: 25px;
+        margin: 20px;
+    }
 
-            .imga{
-                left: 6px;
-            }
+    #div-primero{
+        color: black;
+        background-color: #000000;
+        width: 400px;
+        text-align: center;
+        border-radius: 50px;
+        padding: 50px;
+    }
 
-            .medicQ{
-                position: absolute;
-                height: 40px;
-                width: 40px;
-                left: 320px;
-                top: 650px;
-                border-radius: 50px;
-            }
-        
-            .footerQ{
-                background-color: lightgoldenrodyellow;
-                text-align: center;
-            }
-        
-        /* TURNOS */
-        
-            .medicT{
-                position: absolute;
-                height: 40px;
-                width: 40px;
-                left: 320px;
-                top: 820px;
-                border-radius: 50px;
-            }
-        
-            .footerT{
-                background-color: lightgoldenrodyellow;
-                text-align: center;
-            }
-        
-        /* NOSOTROS */
-        
-            .medicN{
-                position: absolute;
-                height: 40px;
-                width: 40px;
-                left: 320px;
-                top: 2060px;
-                border-radius: 50px;
-            }
-            
-            .bodyHistoria{
-                display: flex;
-                flex-direction: column;
-                padding: 10px;
-                background-color: lightcyan;
-            }
+    #somos-proya-acercauno .donde-acercauno{
+        text-align: left;
+        background-color: none;
+        width: 300px;
+        color: rgb(255, 255, 255);
+    }
 
-            .footerN{
-                background-color: lightgoldenrodyellow;
-                text-align: center;
-            }
+    .dondeParrafo-acercauno{
+        width: 250px;
+        color: white;
+        text-align: left;
+    }
+    
+    .donde-acercados{
+        width: 250px;
+        color: white;
+        text-align: left;
+    }
+    
+    .donde-acercados:hover{
+        background-color: violet;
+        text-transform: uppercase;
+        width: 350px;
+    }
+
+    .tituloAcerca{
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .contenedorMain {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: "destacado destacado"
+        "about     about"
+        "compra  compra";
         
-        /* UBICACION */
+    }
+    
+        .contenidoUno {
+        grid-area: destacado;
+        background-size: cover;
+        height: 50em;
+        width: 100%;
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        }
+
+        .contenidoUno__hr {
+            width: 70%;
+            height: 1px;
+            background-color: #fff; 
+        }
+
+        .contenidoUno__titulo {
+            padding-top: 12.5rem;
+            font-family: "Bebas Neue", cursive;
+            font-size: 5rem;
+            align-self: center;
+            color: #fff; 
+        }
+
+        .contenidoUno__subtitulo {
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: 1.5rem;
+            align-self: center;
+            color: #fff;
+            padding: 1rem; 
+        }
+
+        .contenidoUno__span {
+            font-size: 2rem;
+            font-family: "Bebas Neue", cursive; }
+
+
+    /*ESTILOS PRESUPUESTO*/
+
+    #hero-presupuesto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 50vh;
         
-            .medicU{
-                position: absolute;
-                height: 30px;
-                width: 40px;
-                left: 320px;
-                top: 430px;
-                border-radius: 50px;
-            }
-        
-            .iframegit{
-                width: 350px;
-                height: 350px;
-                left: 10px;
-                position: relative;
-            }
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
 
-            .footerU{
-                background-color: lightgoldenrodyellow;
-                text-align: center;
-            }
-        
-            .tituloIframe{
-                font-size:x-small;
-            }
+    }
 
-            .sectionUbi:hover{
-                background-color: lightslategrey;
-                height: 500px;
-                width: 350px;
-                transition: 2s;
-                margin-right: 100px;
-                padding: 75px;
-            }
+    .h1-presupuesto{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 1000px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
+    }
 
-            .img-fluid{
-                height: 200px;
-                width: 200px;
-                padding: 20px;
-                position: relative;
-                left: 85px;
-            }
+    #div-presupuesto{
+        color: white;
+        text-align: center;
+    }
 
-        /* REDES */
+    .titulo-contacto{
+        background-color: violet;
+        color: #FFF;
+        font-size: 2em;
+        width: 600px;
+        position: relative;
+        height: auto;
+        left: 630px;
+        padding: 5px;
+    }
 
-        .cardIm{
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
+    .email{
+        color: yellow;
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    .divImagenes{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 60px;
+    }
+
+    .imagen{
+        width: 200px;
+        height: 200px;
+        border-radius: 40px;
+    }
+
+    .formulario {
+        height: auto;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: "info form";
+        margin-top: 3.75rem;
+        padding: 1.25rem;
+        padding-left: 10rem; }
+        .formulario__contenido {
+            height: 37.5rem;
+            grid-area: info;
+            background-image: url(../imagenes/contac.jpg);
+            background-size: cover;
             display: flex;
             flex-direction: column;
-            justify-content: left;
-            align-items: left;
-            text-align: left;
-            padding: 20px;
-        }
-        
-        
-        .card-body{
-            width: 400px;
-        }
-        
-        .card{
-            display: flex ;
-            flex-direction: column;
-        }
+            justify-content: center;
+            align-items: center;
+            padding: 1.875rem; }
+        .formulario__titulo {
+            font-family: "Bebas Neue", cursive;
+            font-size: 3rem;
+            color: #fff; }
+        .formulario__contenido i {
+            font-size: 2rem;
+            color: #fff;
+            padding: 0.3125rem; }
+        .formulario__contenido span {
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: 2rem;
+            color: #fff;
+            padding: 0.3125rem; }
+        .formulario__hr {
+            width: 60%;
+            height: 1px;
+            background-color: #fff; }
+    
+        .form {
+        height: 37.5rem;
+        grid-area: form;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.25rem; }
+        .form__titulo {
+            font-family: "Bebas Neue", cursive;
+            font-size: 3rem;
+            color: #000; }
+        .form__label {
+            font-family: "Bebas Neue", cursive;
+            font-size: 1.3rem;
+            color: #383838;
+            padding-top: 0.5rem; }
+        .form__input {
+            width: 60%;
+            height: 6%;
+            padding: 0.625rem;
+            transition: 0.3s; }
+        .form__suscripcion {
+            display: flex;
+            flex-direction: row;
+            padding: 10px; }
+        .form__checkbox {
+            margin-left: 1.25rem; }
+        .form__textarea {
+            width: 60%;
+            height: 14%;
+            padding: 0.625rem; }
+        .form__btn {
+            font-family: "Bebas Neue", cursive;
+            color: #fff9f9;
+            cursor: pointer;
+            display: inline-block;
+            align-self: flex-end;
+            padding: 1em;
+            background-color: #000000;
+            box-shadow: 0px 10px 14px -7px #8c8c8c;
+            border-radius: 4px;
+            font-size: 1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 1s; }
+        .form__input:hover {
+            background-color: #000;
+            color: #eee; }
+        .form__textarea:hover {
+            background-color: #000;
+            color: #eee; }
+        .form__btn:hover {
+            transform: scale(1.05); }
 
-        /* CONTACTO */
-        
-            .medicC{
-                position: absolute;
-                height: 40px;
-                width: 40px;
-                left: 320px;
-                top: 280px;
-                border-radius: 50px;
-            }
-        
-            .footerC{
-                background-color: lightgoldenrodyellow;
-                text-align: center;
-            }
-        
-            .medios:hover{
-                background-color: lightslategrey;
-                height: 500px;
-                width: 350px;
-                transition: 2s;
-                margin-right: 100px;
-                padding: 75px;
-            }
-
-        }
-        /* INFORMACION */
-        
-        /* INSTITUCION */
-        
-        .bodyInformacion {
-            margin: 40px;
-            }
-            
-            .wrapper {
-                display: grid;
-                grid-gap: 30px;
-                grid-template-columns: repeat(auto-fill, 250px );
-                background-color: #fff;
-                color: lightblue;
-            }
-        
-            .box {
-                background-color: lightblue;
-                color: #fff;
-                border-radius: 5px;
-                padding: 20px;
-                font-size: 150%;
-            }
-        
-            .a{
-                grid-column: 1 / 3;
-                height: 200px;
-                width: 300px;
-            }
-        
-            .c{
-                grid-column: 1 / 2 ;
-                grid-row: 2 ;
-                height: 200px;
-                width: 300px;
-            }
-        
-            .e{
-                grid-column: 1 / 5;
-                grid-row: 3;
-                height: 200px;
-                width: 300px;
-            }
-
-            .footerInfo{
-                top: 2000px;
-                background-color: lemonchiffon;
-                text-align: center;
-                border-radius: 50px;
-            }
-
-        
-            @media screen and (min-width: 481px) and (max-width: 768px){
-        
-            /* INDEX */
-        
-            #tituloPrincipalIndex{
-                text-align: center;
-                width: 768px;
-                font-size: 60px;
-                height: 87px;
-            }
-
-            .tituloPrincipalIndex{
-                text-align: center;
-                width: 768px;
-                font-size: 60px;
-                height: 87px;
-                position: relative;
-                left: 0px;
-            }
-
-            .footerIn{
-                background-color: lightyellow;
-                border-radius: 60px;
-                text-align: center;
-                position: absolute;
-                left: 250px;
-                max-width: 450px;
-                max-height: 200px;
-                top: 800px;
-            }
-        
-            .carousel-inner{
-                left: 85px;
-            }
-
-        /* ¿QUIENES SOMOS? */
-        
-        .imga{
-            left: 105px;
+        .iframeUbi{
+            margin: 10px;
+            width: 370px;
+            height: 370px;
         }
 
-            .footerQ{
-                background-color: lightyellow;
-                border-radius: 60px;
-                text-align: center;
-            }
-            
-            /* ¿QUIENES SOMOS? */
-            .footerQ{
-                background-color: lightyellow;
-                border-radius: 60px;
-                text-align: center;
-                position: absolute;
-                left: 250px;
-                max-width: 450px;
-                max-height: 200px;
-                top: 1200px;
-            }
-        
-        /* TURNOS */
-        
-            .medicT{
-                position: absolute;
-                height: 200px;
-                width: 200px;
-                left: 20px;
-                top: 790px;
-                border-radius: 100px;
-            }
-        
-            .footerT{
-                background-color: lightyellow;
-                border-radius: 60px;
-                text-align: center;
-                position: absolute;
-                left: 250px;
-                max-width: 450px;
-                max-height: 200px;
-                top: 970px;
-            }
-        
-        /* UBICACION */
-        
-            .medicU{
-                position: absolute;
-                height: 200px;
-                width: 200px;
-                left: 20px;
-                top: 390px;
-                border-radius: 100px;
-            }
-        
-            .iframegit{
-                width: 600px;
-                height: 600px;
-                left: 86px;
-                position: relative;
-            }
+    /* MENU NAVEGACION */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    a {
+        text-decoration: none;
+    }
+    li {
+        list-style: none;
+    }
 
-            .footerU{
-                background-color: lightyellow;
-                border-radius: 60px;
-                text-align: center;
-                position: absolute;
-                left: 250px;
-                max-width: 450px;
-                max-height: 200px;
-                top: 810px;
-            }
+    /*BARRA DE NAVEGACIÓN*/
+    .navbar  {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .navbar * {
+        box-sizing: border-box;
+        transition: all .35s ease;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        list-style: outside none none;
+        margin: .5em 1em;
+        padding: 0;
+    }
+    
+    .navbar a {
+        padding: .5em .8em;
+        color: rgba(255,255,255,.5);
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .navbar a::before,
+    .navbar a::after {
+        content: '';
+        height: 14px;
+        width: 14px;
+        position: absolute;
+        transition: all .35s ease;
+        opacity: 0;
+    }
+    
+    .navbar a::before {
+        content: '';
+        right: 0;
+        top: 0;
+        border-top: 3px solid #cc87c5;
+        border-right: 3px solid #cc87c5;
+        transform: translate(-100%, 50%);
+    }
+    
+    .navbar a:after {
+        content: '';
+        left: 0;
+        bottom: 0;
+        border-bottom: 3px solid #640f41;
+        border-left: 3px solid #640f41;
+        transform: translate(100%, -50%)
+    }
+    
+    .navbar a:hover:before,
+    .navbar a:hover:after{
+        transform: translate(0,0);
+        opacity: 1;
+    }
 
-            
-            .sectionUbi:hover{
-                background-color: lightslategrey;
-                height: 550px;
-                width: 400px;
-                transition: 2s;
-                margin-right: 100px;
-                padding: 75px;
-            }
-            
-            .img-fluid{
-                height: 200px;
-                width: 200px;
-                padding: 20px;
-                position: relative;
-                left: 280px;
-            }
+    .navbar a:hover {
+        color: violet;
+    }
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: lightblue;
+        color: black;
+    }
 
-        /* NOSOTROS */
-        
-        .bodyHistoria{
+    .nav-links a {
+        color: black;
+    }
+
+    /* LOGO */
+    .logo {
+        border-radius: 600px;
+        width: 200px;
+    }
+
+    /* NAVBAR MENU */
+    .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+    }
+
+    .menu li:hover {
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    .menu li {
+        padding: 5px 14px;
+    }
+    /* DROPDOWN MENU */
+    .services {
+        position: relative; 
+    }
+
+    .dropdown {
+        background-color: violet;
+        padding: 1em 0;
+        position: absolute; /*WITH RESPECT TO PARENT*/
+        display: none;
+        border-radius: 8px;
+        top: 35px;
+    }
+
+    .dropdown li + li {
+        margin-top: 10px;
+    }
+
+    .dropdown li {
+        padding: 0.5em 1em;
+        width: 8em;
+        text-align: center;
+    }
+
+    .dropdown li:hover {
+        background-color: #ffffff;
+    }
+
+    .services:hover .dropdown {
+        display: block;
+    }
+
+    /*RESPONSIVE NAVBAR MENU STARTS*/
+    /* CHECKBOX HACK */
+    input[type=checkbox]{
+        display: none;
+    } 
+    /*HAMBURGER MENU*/
+    .hamburger {
+        display: none;
+        font-size: 24px;
+        user-select: none;
+    }
+
+
+
+
+    /*MEDIA QUERIES*/
+    @media (max-width: 768px) {
+
+        .div-redes{
+            background-color: #c06c84;
             display: flex;
             flex-direction: column;
-            padding: 50px;
+            padding: 250px;
             background-color: lightcyan;
         }
         
-            .footerN{
-                background-color: lightyellow;
-                border-radius: 60px;
-                text-align: center;
-                position: absolute;
-                left: 250px;
-                max-width: 450px;
-                max-height: 200px;
-                top: 1570px;
-            }
-        
-        /* CONTACTO */
-        
-            .medicC{
-                position: absolute;
-                height: 200px;
-                width: 200px;
-                left: 20px;
-                top: 290px;
-                border-radius: 100px;
-            }
-        
-            .footerC{
-                background-color: lightyellow;
-                border-radius: 60px;
-                text-align: center;
-                position: absolute;
-                left: 250px;
-                max-width: 450px;
-                max-height: 200px;
-                top: 500px;
-            }
+        .logoapp{
+            width: 110px;
+            height: 70px;
+            border-radius: 150px;
+            display: flex;
+            flex-direction: column;
         }
+        
+        .hrefapp{
+            position: relative;
+            color: #000;
+            background-color: white;
+            height: 20px;
+            border-radius: 25px;
+            padding: 2px;
+        }
+        
+        .hrefapp:hover{
+            background-color: #000;
+            color: violet;
+            border-radius: 25px;
+            padding: 2px;
+        }
+
+    .info-box h2{
+        border-radius: 50px;
+        position: relative;
+        left: 180px;
+        width: 400px;
+        background-color: #000000;
+        margin-bottom: 30px;
+        color: #89147d;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .menu { 
+        display:none;
+        position: absolute;
+        background-color:rgb(255, 255, 255);
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    .menu li:hover {
+        display: inline-block;
+        background-color:#000000;
+        transition: 0.3s ease;
+    }
+    .menu li + li {
+        margin-top: 12px;
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .hamburger {
+        display: block;
+    }
+    .dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(35%);
+    }
+    .dropdown li:hover {
+        background-color: #4c9e9e;
+    }
+
+    h1{font-size: 2em;}
+
+    #hero h1{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
+    }
+
+    .titulo-precios{
+        background-color: violet;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+        width: 260px;
+        position: relative;
+        left: 232px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .parrafoPrecios{
+        position: relative;
+        left: 5px;
+    }
+    
+    footer .imgPagina{
+        width: 100px;
+        height: 100px;
+        border-radius: 1000px;
+        margin: 10px;
+        position: relative;
+        left: 325px
+    }
+
+    .logo{
+        border-radius: 600px;
+        width: 150px;
+    }
+
+    /*PRESUPUESTO*/
+
+    .h1-presupuesto{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 720px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .titulo-contacto{
+        background-color: violet;
+        color: #FFF;
+        font-size: 2em;
+        width: 600px;
+        position: relative;
+        height: auto;
+        left: 80px;
+        padding: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .formulario {
+        padding-left: 1.5rem; }
+        .formulario__titulo {
+        font-size: 2rem; }
+        .formulario__contenido i {
+        font-size: 1.5rem; }
+        .formulario__contenido span {
+        font-size: 1.5rem; }
+    .form {
+        width: 22.5em;
+        padding: 30px; }
+        .form__titulo {
+        font-size: 2rem; }
+
+    /*ACERCA DE NOSOTROS*/
+
+    .tituloAcerca{
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #heroAcerca .h1-acerca{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 720px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
+    }
+
+    #somos-proya-acerca{
+        margin-top: 0px;
+        background-color: black;
+        height: 650px;
+        text-align: center;
+        padding: 200px 12px;
+        background-image: url(https://k46.kn3.net/taringa/9/D/4/2/4/9/luismi222222/337.png);
+        background-repeat: no-repeat;
+        background-position: center ;
+    }
+
+    .imgCertificado{
+        margin-top: 20px;
+        width: 450px;
+        height: 400px;
+        position: relative;
+        left: 165px;
+    }
+
+    #somos-proya-acercauno{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-image: url(https://www.solbyte.com/blog/wp-content/uploads/desarrollo-web-a-medida.png);
+        background-repeat: no-repeat;
+        background-position: center ;
+        color: black;
+        padding: 25px;
+        margin: 20px;
+    }
+
+    .main {
+        width: 100%; }
+    /**seccion index**/
+    .contenidoUno__subtitulo {
+        background-color: rgba(0, 0, 0, 0.514); }
+}
+
+@media (max-width: 480px) {
+
+    .info-box h2{
+        padding: 5px;
+        font-size: 1.5em;
+        border-radius: 50px;
+        position: relative;
+        left: 11px;
+        width: 350px;
+        background-color: #000000;
+        margin-bottom: 30px;
+        color: #89147d;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h1{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 320px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
+        font-size: 1.5em;
+    }
+
+    #hero h1{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
+    }
+
+    #somos-proya{
+        margin-top: 0px;
+        background-color: black;
+        height: 650px;
+        text-align: center;
+        padding: 200px 12px;
+        background-image: url(https://lh6.googleusercontent.com/proxy/d4aCRIyyR2dFnKzBVDeHhQ1sud9tqCFpxLW7fuGYzIWMWMGjJYhGmqeCadRv2Ggh-wlYabQiIwqfqUiq2wSbsNmOtz2zvdJ_sbI5VHST99r_S7ilnuB2vLU=s0-d);
+        background-repeat: no-repeat;
+        background-position: center ;
+        left: 2px;
+    }
+
+    .titulo-precios{
+        background-color: violet;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+        width: 260px;
+        position: relative;
+        left: 42px;
+    }
+    
+
+
+    .logo {
+        border-radius: 600px;
+        width: 100px;
+    }
+
+    .h1-presupuesto{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 380px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
+        padding: 5px
+    }
+
+    /*FOOTER*/
+
+    footer p{
+        background-color: rgb(255, 255, 255);
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    /*PRESUPUESTO*/
+
+    .h1-presupuesto{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 320px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
+        font-size: 1.5em;
+    }
+
+    .titulo-contacto{
+        background-color: violet;
+        color: #FFF;
+        font-size: 2em;
+        width: 320px;
+        position: relative;
+        height: auto;
+        left: 25px;
+        padding: 5px;
+        font-size: 1.5em;
+    }
+
+    .divImagenes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 60px;
+    }
+
+    .imagen{
+        width: 200px;
+        height: 200px;
+        border-radius: 40px;
+        margin: 12px;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 100%; }
+    .form {
+        width: 100%; }
+
+    /*ACERCA DE NOSOTROS*/
+
+    .tituloAcerca{
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #heroAcerca .h1-acerca{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        width: 320px;
+        border: black;
+        border-radius: 80px;
+        margin: 6px;
+        font-size: 1.5em;
+    }
+
+    #somos-proya-acerca{
+        margin-top: 0px;
+        background-color: black;
+        height: 650px;
+        text-align: center;
+        padding: 200px 12px;
+        background-image: url(https://k46.kn3.net/taringa/9/D/4/2/4/9/luismi222222/337.png);
+        background-repeat: no-repeat;
+        background-position: center ;
+    }
+
+    .imgCertificado{
+        margin-top: 20px;
+        width: 340px;
+        height: 290px;
+        position: relative;
+        left: 20px;
+    }
+
+    #somos-proya-acercauno{
+        color: black;
+        padding: 25px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: center ;
+    }
+    
+    .contenedorMain {
+        display: none;
+        
+    }
+
+    .div-redes{
+        background-color: #c06c84;
+        display: flex;
+        flex-direction: column;
+        padding: 250px;
+        background-color: lightcyan;
+    }
+    
+    .logoapp{
+        width: 110px;
+        height: 70px;
+        border-radius: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hrefapp{
+        position: relative;
+        color: #000;
+        background-color: white;
+        height: 20px;
+        border-radius: 25px;
+        padding: 2px;
+    }
+    
+    .hrefapp:hover{
+        background-color: #000;
+        color: violet;
+        border-radius: 25px;
+        padding: 2px;
+    }
+
+    .iframeUbicacion{
+        width: 300px;
+        height: 300px;
+    }
+}
